@@ -1,0 +1,8 @@
+---
+
+include:
+  - project: it/templates/gitlab-ci
+    file: stages.gitlab-ci.yml
+  - project: it/templates/gitlab-ci
+    file: container.gitlab-ci.yml
+

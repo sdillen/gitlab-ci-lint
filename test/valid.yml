@@ -1,0 +1,9 @@
+---
+
+stages:
+  - test
+
+valid:
+  stage: test
+  script:
+    - ls
